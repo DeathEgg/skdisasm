@@ -9383,23 +9383,23 @@ loc_7F6C:
 		move.w	#0,$38(a0)
 		bsr.w	sub_8402
 		move.b	#$FF,$3A(a0)
-		move.l	#loc_7F9A,(a0)
+		;move.l	#loc_7F9A,(a0)
 
-loc_7F9A:
-		tst.w	(Special_stage_rate_timer).w
-		beq.s	loc_7FCE
-		subq.w	#1,(Special_stage_rate_timer).w
-		bne.s	loc_7FCE
-		move.w	#$708,(Special_stage_rate_timer).w
-		cmpi.w	#$2000,(Special_stage_rate).w
-		beq.s	loc_7FCE
-		addi.w	#$400,(Special_stage_rate).w
-		move.b	(Special_stage_rate).w,d0
-		subi.b	#$20,d0
-		neg.b	d0
-		add.b	d0,d0
-		addq.b	#8,d0
-		jsr	(Change_Music_Tempo).l
+;loc_7F9A:
+;		tst.w	(Special_stage_rate_timer).w
+;		beq.s	loc_7FCE
+;		subq.w	#1,(Special_stage_rate_timer).w
+;		bne.s	loc_7FCE
+;		move.w	#$708,(Special_stage_rate_timer).w
+;		cmpi.w	#$2000,(Special_stage_rate).w
+;		beq.s	loc_7FCE
+;		addi.w	#$400,(Special_stage_rate).w
+;		move.b	(Special_stage_rate).w,d0
+;		subi.b	#$20,d0
+;		neg.b	d0
+;		add.b	d0,d0
+;		addq.b	#8,d0
+;		jsr	(Change_Music_Tempo).l
 
 loc_7FCE:
 		bsr.w	sub_8476
