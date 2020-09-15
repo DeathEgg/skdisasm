@@ -9,14 +9,14 @@
 		dc.l Obj_Spikes				; 8
 		dc.l Obj_09_1				; 9
 		dc.l Obj_0A_1				; 10
-		dc.l Obj_SphereTest			; 11
+		dc.l Obj_Ring               ; 11
 		dc.l Obj_AIZGiantRideVine		; 12
 		dc.l Obj_BreakableWall			; 13
 		dc.l Obj_0E				; 14
 		dc.l Obj_CollapsingBridge		; 15
 		dc.l Obj_LBZTubeElevator		; 16
 		dc.l Obj_LBZMovingPlatform		; 17
-		dc.l Obj_12_1				; 18
+		dc.l Obj_Ring				; 18
 		dc.l Obj_LBZExplodingTrigger		; 19
 		dc.l Obj_LBZTriggerBridge		; 20
 		dc.l Obj_LBZPlayerLauncher		; 21
@@ -24,10 +24,10 @@
 		dc.l Obj_LBZRideGrapple			; 23
 		dc.l Obj_LBZCupElevator			; 24
 		dc.l Obj_LBZCupElevatorPole		; 25
-		dc.l Obj_1A_1				; 26
+		dc.l Obj_Ring				; 26
 		dc.l Obj_LBZPipePlug			; 27
-		dc.l Obj_1C_1				; 28
-		dc.l Obj_1D_1				; 29
+		dc.l Obj_Ring				; 28
+		dc.l Obj_Ring				; 29
 		dc.l Obj_LBZSpinLauncher		; 30
 		dc.l Obj_LBZLoweringGrapple		; 31
 		dc.l Obj_MGZLBZSmashingPillar		; 32
@@ -37,7 +37,7 @@
 		dc.l Obj_AutomaticTunnel		; 36
 		dc.l Obj_Ring				; 37
 		dc.l Obj_26				; 38
-		dc.l Obj_27				; 39
+		dc.l Obj_Ring				; 39
 		dc.l Obj_28_Invisible_Barrier		; 40
 		dc.l Obj_AIZDisappearingFloor		; 41
 		dc.l Obj_CorkFloor			; 42
