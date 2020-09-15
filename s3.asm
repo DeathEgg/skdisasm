@@ -34494,6 +34494,16 @@ byte_1C700:	dc.b $96
 		dc.b 0
 ; ---------------------------------------------------------------------------
 
+loc_1C778:
+		move.w	$48(a0),d0
+		beq.s	loc_1C784
+		movea.w	d0,a2
+		bclr	#7,(a2)
+
+loc_1C784:
+		jmp	(Delete_Current_Sprite).l
+; ---------------------------------------------------------------------------
+
 Obj_28_Invisible_Barrier:
 		move.l	#Map_InvisibleBlock,$C(a0)
 		move.w	#make_art_tile(ArtTile_Ring,0,1),$A(a0)
